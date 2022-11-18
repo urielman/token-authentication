@@ -2,7 +2,7 @@ import express from 'express';
 import admin from './admin';
 import {
     checkToken,
-} from '../middlewares/firebase-token-check';
+} from '../middlewares/token-check';
 
 
 const router = express.Router();
