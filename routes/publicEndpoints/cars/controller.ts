@@ -6,15 +6,15 @@ export const getCars = (req: Request, res: Response) => {
   res.send([
     {
       id: "1",
-      name: "car1"
+      name: "public car 1"
     },
     {
       id: "2",
-      name: "car2"
+      name: "public car 2"
     },
     {
       id: "3",
-      name: "car3"
+      name: "public car 3"
     },
   ]);
 };
